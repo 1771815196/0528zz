@@ -1,0 +1,20 @@
+{
+    "name": "administrator/coc",
+    "authors": [
+        {
+            "name": "zhangzhiteng",
+            "email": "1771815196@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app",
+            "system\\":"system"
+        },
+        "files":[
+            "core/config/databases.php"
+        ]
+    }
+}
